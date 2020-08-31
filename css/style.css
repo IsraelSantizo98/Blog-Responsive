@@ -7,29 +7,23 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   line-height: 2;
 }
-
 img {
   max-width: 100%;
 }
-
 h1 {
   font-size: 4rem;
 }
-
 h2 {
   font-size: 3.2rem;
 }
-
 p {
   font-size: 2rem;
 }
-
 .entrada-blog a {
   display: inline-block;
   background-color: #2196f3;
@@ -38,4 +32,13 @@ p {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+}
+.contenedor {
+  /*Para que el div que tiene todo el contendio de este blog solo pueda tener maximo 1200px*/
+  max-width: 1200px;
+  /*margin: 0 auto 0 auto*/
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
 }
